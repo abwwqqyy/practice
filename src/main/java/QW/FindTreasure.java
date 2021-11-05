@@ -52,7 +52,9 @@ public class FindTreasure {
         if(remain == 0 && i == end[0] && j == end[1]){
             res.add(new ArrayList<>(path));
             path.remove(path.size() - 1);
-            if(board[i][j] == 1) remain ++;
+            if(board[i][j] == 1) {
+                remain ++;
+            }
             visited[i][j] = false;
             return;
         }
