@@ -30,7 +30,7 @@ public class PermutationPalindromes {
             res.add(cur);
             return;
         }
-         Set<Character> curChars = new HashSet<>();
+        Set<Character> curChars = new HashSet<>();
         for(int i = 0; i < characterSet.length(); i++){
             char c = characterSet.charAt(i);
             if(curChars.contains(c)){
