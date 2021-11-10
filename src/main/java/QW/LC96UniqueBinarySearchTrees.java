@@ -1,5 +1,9 @@
 package QW;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class LC96UniqueBinarySearchTrees {
     public static int numTrees(int n) {
         int[] dp = new int[n + 1];
