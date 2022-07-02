@@ -39,4 +39,4 @@ public class LC403FrogJump {
         System.out.println(canCross(stones2));//false
     }
 }
-//O(N*k) space O(N)
+//O(N^2) space O(N)
